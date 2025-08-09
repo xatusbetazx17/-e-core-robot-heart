@@ -1,0 +1,12 @@
+Item,Qty,Category,Part/Spec,Notes
+1,1,PV (outdoor),Monocrystalline mini tile ~20%,"Primary harvester in sun"
+2,1,PV (indoor),a‑Si/DSSC/GaInP tile,"Low‑light spectral match"
+3,1,Harvester PMIC,TI BQ25570 or e‑peas AEM10941,"MPPT + cold start"
+4,1,TEG,Bi2Te3 thin module,"Small ΔT mW source"
+5,1,Motion,Piezo PVDF beam or micro‑EM shaker,"On movement"
+6,1,RF,PCB rectenna + Schottky,"µW‑level top‑up"
+7,2,Supercapacitors,1–10 F 2.7 V,"Burst tank (use balancing if series)"
+8,1,Backup cell,Li‑SOCl2 primary,"Do NOT recharge"
+9,1,MCU,Ultra‑low‑power (STM32U/EFM32/nRF52),"Idle µA"
+10,1,Memory,FRAM,"No wear-out"
+11,1,Power,Buck/Boost + ideal diode,"Low quiescent"
