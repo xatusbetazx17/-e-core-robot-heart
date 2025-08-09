@@ -1,8 +1,0 @@
-# Default power profile (tunable)
-always_on_uW: 80
-burst_power_W: 5
-burst_seconds: 1
-burst_every_min: 30
-pv_area_m2: 0.05
-indoor_lux: 800
-sun_hours: 4
